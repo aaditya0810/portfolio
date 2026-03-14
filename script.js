@@ -147,17 +147,36 @@ document.addEventListener('DOMContentLoaded', () => {
     if (yearEl) yearEl.textContent = new Date().getFullYear();
 
 
-    // ── 9. CONTACT FORM ───────────────────────────────────────
+    // ── 9. CONTACT FORM AJAX SUBMISSION ───────────────────────
     const form = document.getElementById('contactForm');
     if (form) {
-        form.addEventListener('submit', e => {
+        form.addEventListener('submit', async e => {
             e.preventDefault();
-            const btn = form.querySelector('button[type="submit"]');
+            const btn = document.getElementById('submitBtn');
             const orig = btn.innerHTML;
-            btn.innerHTML = '<i class="fa-solid fa-check"></i> Message Sent!';
-            btn.style.background = 'linear-gradient(135deg, #10B981, #059669)';
+            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Sending...';
+            
+            try {
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    body: new FormData(form),
+                    headers: { 'Accept': 'application/json' }
+                });
+                
+                if (response.ok) {
+                    btn.innerHTML = '<i class="fa-solid fa-check"></i> Message Sent!';
+                    btn.style.background = 'linear-gradient(135deg, #10B981, #059669)';
+                    form.reset();
+                } else {
+                    btn.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> Error!';
+                    btn.style.background = '#EF4444';
+                }
+            } catch (error) {
+                btn.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> Error!';
+                btn.style.background = '#EF4444';
+            }
+            
             setTimeout(() => {
-                form.reset();
                 btn.innerHTML = orig;
                 btn.style.background = '';
             }, 3000);
