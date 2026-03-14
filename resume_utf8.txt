@@ -1,0 +1,46 @@
+Aaditya
+Punekar+447776663911
+deta.aadi@gmail.com
+United Kingdom | LinkedIn
+Professional Summary
+Data Analyst with 2+ years of experience applying machine learning, NLP, and GenAI tools to deliver actionable insights and
+automation across retail, pharma, and insurance sectors. Skilled in Python, SQL, Power BI, and LLMs like BERT and
+Longformer, with a proven track record in building predictive models, streamlining data workflows, and driving data-informed
+business decisions.
+AREAS OF EXPERTISE
+•Data Analysis •Mathematics •Data Mining
+•Power BI, Tableau •Data Science •Problem Solving
+•Compliance, KPI’s •MySql, R •Pandas, Matplotlib
+•Data Cleaning & Processing •Azure, Docker •Stakeholder Communication
+Experience
+Data Scientist ,JustinClicks, Remote, Mumbai, India May 2023 – Jan 2025
+•Fine-tuned LLMs such as BERT and RoBERTa using Python and Hugging Face to enhance sentiment tagging accuracy by 30%
+across ORM datasets.
+•Designed dynamic SEO and brand performance dashboards in Power BI and Looker Studio, reducing stakeholder reporting
+time by 40%.
+•Automated ORM data ingestion pipelines from social and review platforms using SQL and Airflow, decreasing manual data
+processing by 60%. .
+•Performed keyword and competitor intelligence using SEMrush and Ahrefs, driving a 15% growth in client web traffic
+through actionable insights.
+Data Analyst ,Deep Punch, Remote, Mumbai, India Oct 2020 – Jun 2021
+•Improved inventory forecasting using regression models built in Python and Excel, resulting in a 25% increase in accuracy
+and better stock control.
+•Created supplier performance dashboards using Power BI to reduce procurement delays by 20% and increase visibility for
+procurement teams.
+•Automated reporting workflows with SQL and Jupyter notebooks, saving over 10 hours of manual effort per week.
+•Conducted spend analysis and cost modeling with Python to identify vendor savings, achieving a 12% reduction in sourcing
+costs.
+Projects
+GenAI-Driven Fine-Tuning of LLMs for Automated Mention Analysis github.com/aaditya0810
+•Fine-tuned Longformer models for multi-label entity tagging in pharma and insurance datasets, improving classification
+accuracy by 30–40% .
+•Automated mention analysis pipelines with Python for scalable JSON data preparation and tagging evaluation.
+•Enhanced NLP workflows through iterative model optimization and client-specific refinements.
+Malware Detection in Portable Executable (.exe) Files Using Hybrid Machine Learning github.com/aaditya0810
+•Built a hybrid malware detection system using PE header analysis and ensemble models, achieving high classification
+precision.
+•Engineered feature extraction, dimensionality reduction, and model training using CNN, XGBoost, and SVM.
+•Evaluated results with confusion matrices and ROC curves for deployment-ready insights.
+Education
+Queen Mary University of London , MSC in Computer Science 2021 – 2023
+University of Mumbai , BE in Computer Engineering 2017 – 2020

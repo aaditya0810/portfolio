@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaditya Punekar | Data Scientist & AI Engineer</title>
+    <meta name="description"
+        content="Portfolio of Aaditya Punekar — Data Scientist, ML Engineer & GenAI Builder. Specialising in Machine Learning, NLP, and intelligent automation.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="bg-mesh"></div>
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+    <div class="noise-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Aaditya<span class="dot">.</span></a>
+
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-btn">Let's Talk</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- ===== HERO SECTION ===== -->
+        <section id="hero" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge reveal-fade-up">
+                        <span class="badge-dot"></span>
+                        Available for opportunities
+                    </div>
+                    <p class="hero-greeting reveal-fade-up delay-1">👋 Hi, I'm Aaditya Punekar</p>
+                    <h1 class="hero-title reveal-fade-up delay-2">
+                        I build <span class="gradient-text typed-wrapper"><span id="typed-text">Data</span><span class="cursor-blink">|</span></span><br>
+                        that drives decisions.
+                    </h1>
+                    <p class="hero-subtitle reveal-fade-up delay-3">
+                        Data Scientist & AI Engineer with expertise in Machine Learning, NLP, and GenAI.
+                        Building predictive models and intelligent automation that deliver real business value.
+                    </p>
+                    <div class="hero-cta reveal-fade-up delay-4">
+                        <a href="#projects" class="btn btn-primary">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                        <a href="Aadi_ND_resume.pdf" target="_blank" class="btn btn-ghost">Resume <i class="fa-solid fa-download"></i></a>
+                    </div>
+
+                    <div class="social-links mt-4 reveal-fade-up delay-5">
+                        <a href="https://github.com/aaditya0810" target="_blank" aria-label="GitHub" class="social-icon">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/aaditya-punekar" target="_blank" aria-label="LinkedIn" class="social-icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:deta.aadi@gmail.com" aria-label="Email" class="social-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Floating code element -->
+                <div class="hero-code-block reveal-fade-left delay-3">
+                    <div class="code-header">
+                        <span class="dot-red"></span><span class="dot-yellow"></span><span class="dot-green"></span>
+                        <span class="code-filename">model.py</span>
+                    </div>
+                    <pre class="code-content"><span class="code-comment"># AI-powered prediction engine</span>
+<span class="code-keyword">import</span> torch, transformers
+<span class="code-keyword">from</span> sklearn.ensemble <span class="code-keyword">import</span> XGBClassifier
+
+<span class="code-keyword">class</span> <span class="code-class">RetailBrain</span>:
+    <span class="code-keyword">def</span> <span class="code-fn">predict</span>(self, data):
+        forecast = self.model(data)
+        <span class="code-keyword">return</span> {
+          <span class="code-str">"stockout_risk"</span>: forecast.prob,
+          <span class="code-str">"confidence"</span>: <span class="code-num">0.94</span>
+        }</pre>
+                </div>
+            </div>
+
+            <!-- Stats Bar -->
+            <div class="stats-bar">
+                <div class="container stats-container">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="8">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">AI Projects Built</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="2">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="15">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">Technologies</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="30">0</span><span class="stat-suffix">%</span>
+                        <span class="stat-label">Avg Accuracy Boost</span>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-indicator">
+                <div class="mouse"><div class="wheel"></div></div>
+            </a>
+        </section>
+
+        <!-- ===== ABOUT SECTION ===== -->
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="section-header reveal-fade-up">
+                    <span class="section-tag">Who I Am</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-text reveal-fade-right">
+                        <h3>Empowering businesses with intelligent data solutions.</h3>
+                        <p>I am a Data Scientist & AI Engineer with over 2 years of experience applying machine learning,
+                            NLP, and GenAI tools to deliver actionable insights and automation across retail, pharma,
+                            and insurance sectors.</p>
+                        <p>With a proven track record in building predictive models, streamlining data workflows, and
+                            driving data-informed business decisions, my goal is to bridge complex algorithms with
+                            tangible value. I specialize in deploying LLMs, constructing dashboards, and scaling data
+                            architectures using Python, SQL, and modern cloud deployment strategies.</p>
+                        <p>Currently based in the <strong>United Kingdom</strong>, I hold an <strong>MSc in Computer Science</strong>
+                            from Queen Mary University of London.</p>
+
+                        <div class="about-highlight-grid mt-2">
+                            <div class="highlight-card">
+                                <i class="fa-solid fa-brain" style="color:#6366F1"></i>
+                                <span>Machine Learning</span>
+                            </div>
+                            <div class="highlight-card">
+                                <i class="fa-solid fa-robot" style="color:#10B981"></i>
+                                <span>GenAI & LLMs</span>
+                            </div>
+                            <div class="highlight-card">
+                                <i class="fa-solid fa-chart-line" style="color:#F59E0B"></i>
+                                <span>Data Analytics</span>
+                            </div>
+                            <div class="highlight-card">
+                                <i class="fa-solid fa-cloud" style="color:#38BDF8"></i>
+                                <span>Cloud & APIs</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-image reveal-fade-left">
+                        <div class="image-wrapper glass-panel">
+                            <div class="avatar-placeholder">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <div class="experience-badge glass-badge">
+                                <span class="years">2+</span>
+                                <span class="text">Years of<br>Experience</span>
+                            </div>
+                            <div class="location-badge">
+                                <i class="fa-solid fa-location-dot"></i>
+                                United Kingdom
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SKILLS SECTION ===== -->
+        <section id="skills" class="skills-section section">
+            <div class="container">
+                <div class="section-header reveal-fade-up">
+                    <span class="section-tag">What I Know</span>
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="skills-columns reveal-fade-up">
+                    <!-- Languages & Frameworks -->
+                    <div class="skill-group glass-card">
+                        <h4 class="skill-group-title"><i class="fa-solid fa-code"></i> Languages & Frameworks</h4>
+                        <div class="skill-tags">
+                            <span class="stag python">Python</span>
+                            <span class="stag sql">SQL</span>
+                            <span class="stag">JavaScript</span>
+                            <span class="stag">FastAPI</span>
+                            <span class="stag">Flask</span>
+                            <span class="stag">PyTorch</span>
+                            <span class="stag">TensorFlow</span>
+                            <span class="stag">Scikit-learn</span>
+                        </div>
+                    </div>
+
+                    <!-- AI & ML -->
+                    <div class="skill-group glass-card">
+                        <h4 class="skill-group-title"><i class="fa-solid fa-brain"></i> AI / ML</h4>
+                        <div class="skill-tags">
+                            <span class="stag ai">LLMs (GPT-4, Gemini)</span>
+                            <span class="stag ai">HuggingFace</span>
+                            <span class="stag ai">BERT / RoBERTa</span>
+                            <span class="stag ai">XGBoost</span>
+                            <span class="stag ai">Reinforcement Learning</span>
+                            <span class="stag ai">NLP / RAG</span>
+                            <span class="stag ai">Computer Vision</span>
+                        </div>
+                    </div>
+
+                    <!-- Data & Cloud -->
+                    <div class="skill-group glass-card">
+                        <h4 class="skill-group-title"><i class="fa-solid fa-database"></i> Data & Cloud</h4>
+                        <div class="skill-tags">
+                            <span class="stag cloud">PostgreSQL</span>
+                            <span class="stag cloud">MongoDB</span>
+                            <span class="stag cloud">Azure</span>
+                            <span class="stag cloud">Docker</span>
+                            <span class="stag cloud">Airflow</span>
+                            <span class="stag cloud">Power BI</span>
+                            <span class="stag cloud">Tableau</span>
+                            <span class="stag cloud">Pandas / NumPy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== EXPERIENCE SECTION ===== -->
+        <section id="experience" class="experience section">
+            <div class="container">
+                <div class="section-header reveal-fade-up">
+                    <span class="section-tag">My Journey</span>
+                    <h2 class="section-title">Experience & Education</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item reveal-fade-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">May 2023 – Jan 2025</span>
+                            <h3 class="timeline-title">Data Scientist</h3>
+                            <h4 class="timeline-company"><i class="fa-solid fa-building"></i> JustinClicks &nbsp;·&nbsp; Remote, Mumbai</h4>
+                            <p>Fine-tuned LLMs such as BERT and RoBERTa using Python and Hugging Face to enhance
+                                sentiment tagging accuracy by <strong>30%</strong> across ORM datasets. Designed dynamic SEO dashboards
+                                in Power BI and Looker Studio. Automated ORM data ingestion pipelines with SQL and
+                                Airflow, decreasing manual processing by <strong>60%</strong>.</p>
+                            <div class="timeline-tags">
+                                <span>Python</span><span>BERT</span><span>Power BI</span><span>Airflow</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal-fade-up" style="transition-delay: 100ms;">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">Oct 2020 – Jun 2021</span>
+                            <h3 class="timeline-title">Data Analyst</h3>
+                            <h4 class="timeline-company"><i class="fa-solid fa-building"></i> Deep Punch &nbsp;·&nbsp; Remote, Mumbai</h4>
+                            <p>Improved inventory forecasting using regression models, resulting in a <strong>25% increase</strong> in
+                                accuracy. Created supplier performance dashboards using Power BI to reduce procurement
+                                delays by <strong>20%</strong>. Automated reporting workflows driving a <strong>12% reduction</strong> in sourcing costs.</p>
+                            <div class="timeline-tags">
+                                <span>SQL</span><span>Python</span><span>Power BI</span><span>Regression</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal-fade-up" style="transition-delay: 200ms;">
+                        <div class="timeline-dot edu-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">2021 – 2023</span>
+                            <h3 class="timeline-title">MSc Computer Science</h3>
+                            <h4 class="timeline-company"><i class="fa-solid fa-graduation-cap"></i> Queen Mary University of London</h4>
+                            <p>Specialised in advanced computing algorithms and data science paradigms. Graduated with a
+                                focus on machine learning systems and intelligent data architectures.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal-fade-up" style="transition-delay: 300ms;">
+                        <div class="timeline-dot edu-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">2017 – 2020</span>
+                            <h3 class="timeline-title">BE Computer Engineering</h3>
+                            <h4 class="timeline-company"><i class="fa-solid fa-graduation-cap"></i> University of Mumbai</h4>
+                            <p>Built a strong engineering foundation in software architecture, computational logic, and
+                                data structures.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJECTS SECTION ===== -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <div class="section-header reveal-fade-up">
+                    <span class="section-tag">What I've Built</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <!-- Filter Tabs -->
+                <div class="filter-tabs reveal-fade-up">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                    <button class="filter-btn" data-filter="genai">GenAI / LLM</button>
+                    <button class="filter-btn" data-filter="automation">Automation</button>
+                </div>
+
+                <div class="projects-grid" id="projectsGrid">
+
+                    <!-- Project 1: Retail Brain Sainsbury's -->
+                    <div class="project-card glass-card reveal-fade-up" data-category="ml" style="--delay: 0ms">
+                        <div class="project-img-wrapper">
+                            <div class="project-img bg-retail">
+                                <div class="proj-icon-bg">
+                                    <i class="fa-solid fa-chart-network"></i>
+                                </div>
+                            </div>
+                            <div class="project-category-badge">Machine Learning</div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Retail Brain — Sainsbury's</h3>
+                            <p class="project-desc">Full-stack AI demand forecasting system for Sainsbury's. Features
+                                JWT-authenticated REST API, real-time WebSocket alerts, POS connectors, and ML-powered
+                                stockout prediction for 1,000+ SKUs with 94% accuracy.</p>
+                            <div class="project-tech">
+                                <span>Python</span><span>FastAPI</span><span>XGBoost</span>
+                                <span>PostgreSQL</span><span>Docker</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/aaditya0810/retail-brain-sainsburys" target="_blank" class="proj-link-github">
+                                    <i class="fa-brands fa-github"></i> Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Retail Ops Copilot -->
+                    <div class="project-card glass-card reveal-fade-up" data-category="ml" style="--delay: 80ms">
+                        <div class="project-img-wrapper">
+                            <div class="project-img bg-copilot">
+                                <div class="proj-icon-bg">
+                                    <i class="fa-solid fa-robot"></i>
+                                </div>
+                            </div>
+                            <div class="project-category-badge">Reinforcement Learning</div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Retail Ops Copilot</h3>
+                            <p class="project-desc">End-to-end decision intelligence system using Reinforcement Learning
+                                to automate staff task assignments. Features MILP optimization baseline, digital twin
+                                simulation, and an interactive dashboard for retail operations.</p>
+                            <div class="project-tech">
+                                <span>Python</span><span>RL (PPO)</span><span>MILP</span>
+                                <span>Dash</span><span>Plotly</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/aaditya0810/retail-ops-copilot" target="_blank" class="proj-link-github">
+                                    <i class="fa-brands fa-github"></i> Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: AgentSentinel -->
+                    <div class="project-card glass-card reveal-fade-up" data-category="genai" style="--delay: 160ms">
+                        <div class="project-img-wrapper">
+                            <div class="project-img bg-sentinel">
+                                <div class="proj-icon-bg">
+                                    <i class="fa-solid fa-shield-halved"></i>
+                                </div>
+                            </div>
+                            <div class="project-category-badge">GenAI / Agents</div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">AgentSentinel</h3>
+                            <p class="project-desc">Multi-agent AI monitoring system providing real-time oversight of
+                                autonomous AI pipelines. Implements structured guardrail layers, audit logging, and
+                                enterprise-grade observability for agentic AI workflows.</p>
+                            <div class="project-tech">
+                                <span>Python</span><span>LLM Agents</span><span>FastAPI</span>
+                                <span>WebSockets</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/aaditya0810/AgentSentinel" target="_blank" class="proj-link-github">
+                                    <i class="fa-brands fa-github"></i> Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: YouTube Automation -->
+                    <div class="project-card glass-card reveal-fade-up" data-category="automation genai" style="--delay: 240ms">
+                        <div class="project-img-wrapper">
+                            <div class="project-img bg-youtube">
+                                <div class="proj-icon-bg">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </div>
+                            </div>
+                            <div class="project-category-badge">Automation</div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">YouTube Automation Pipeline</h3>
+                            <p class="project-desc">Fully automated AI-driven content pipeline that generates scripts,
+                                voiceovers, thumbnails, and video compilations using GPT-4 and ElevenLabs. Targets
+                                fitness & health niche with engaging AI personas.</p>
+                            <div class="project-tech">
+                                <span>Python</span><span>GPT-4</span><span>ElevenLabs</span>
+                                <span>FFmpeg</span><span>n8n</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/aaditya0810/youtube-automation" target="_blank" class="proj-link-github">
+                                    <i class="fa-brands fa-github"></i> Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: Logistics Reconciliation Engine -->
+                    <div class="project-card glass-card reveal-fade-up" data-category="genai ml" style="--delay: 320ms">
+                        <div class="project-img-wrapper">
+                            <div class="project-img bg-logistics">
+                                <div class="proj-icon-bg">
+                                    <i class="fa-solid fa-boxes-stacked"></i>
+                                </div>
+                            </div>
+                            <div class="project-category-badge">GenAI Agent</div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Logistics Reconciliation Engine</h3>
+                            <p class="project-desc">Zero-hallucination AI agent for retail logistics that eliminates
+                                "Ghost Inventory" by autonomously ingesting unstructured supplier data (PDFs, emails)
+                                and reconciling against master inventory with structured discrepancy reports.</p>
+                            <div class="project-tech">
+                                <span>Python</span><span>LLM Agents</span><span>RAG</span>
+                                <span>PostgreSQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/aaditya0810/LogisticsReconciliationEngine" target="_blank" class="proj-link-github">
+                                    <i class="fa-brands fa-github"></i> Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6: GenAI Mention Intelligence -->
+                    <div class="project-card glass-card reveal-fade-up" data-category="genai ml" style="--delay: 400ms">
+                        <div class="project-img-wrapper">
+                            <div class="project-img bg-genai">
+                                <div class="proj-icon-bg">
+                                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                                </div>
+                            </div>
+                            <div class="project-category-badge">NLP / GenAI</div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">GenAI Mention Intelligence</h3>
+                            <p class="project-desc">LLM-powered brand and entity mention analysis system. Fine-tuned
+                                Longformer models for multi-label entity tagging in pharma and insurance datasets,
+                                improving classification accuracy by 30–40% with automated JSON pipelines.</p>
+                            <div class="project-tech">
+                                <span>Python</span><span>Longformer</span><span>HuggingFace</span>
+                                <span>NLP</span><span>Airflow</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/aaditya0810/genai-mention-intelligence" target="_blank" class="proj-link-github">
+                                    <i class="fa-brands fa-github"></i> Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 7: Excel to PDF Summarizer -->
+                    <div class="project-card glass-card reveal-fade-up" data-category="automation genai" style="--delay: 480ms">
+                        <div class="project-img-wrapper">
+                            <div class="project-img bg-excel">
+                                <div class="proj-icon-bg">
+                                    <i class="fa-solid fa-file-invoice"></i>
+                                </div>
+                            </div>
+                            <div class="project-category-badge">Automation</div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Excel to PDF Summarizer</h3>
+                            <p class="project-desc">AI-powered document intelligence tool that ingests Excel and CSV
+                                reports, applies LLM-generated natural language summaries, and exports polished PDF
+                                reports. Reduces manual reporting time significantly.</p>
+                            <div class="project-tech">
+                                <span>Python</span><span>OpenAI API</span><span>Pandas</span>
+                                <span>ReportLab</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/aaditya0810/excel-to-pdf-summarizer" target="_blank" class="proj-link-github">
+                                    <i class="fa-brands fa-github"></i> Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 8: Hybrid Malware Detection -->
+                    <div class="project-card glass-card reveal-fade-up" data-category="ml" style="--delay: 560ms">
+                        <div class="project-img-wrapper">
+                            <div class="project-img bg-malware">
+                                <div class="proj-icon-bg">
+                                    <i class="fa-solid fa-shield-virus"></i>
+                                </div>
+                            </div>
+                            <div class="project-category-badge">Machine Learning</div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Hybrid Malware Detection</h3>
+                            <p class="project-desc">High-precision malware classification system using PE header
+                                analysis and ensemble models. Engineered feature extraction pipelines combining CNN
+                                binary visualisation, XGBoost, and SVM architectures.</p>
+                            <div class="project-tech">
+                                <span>Python</span><span>CNN</span><span>XGBoost</span>
+                                <span>SVM</span><span>PE Analysis</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/aaditya0810" target="_blank" class="proj-link-github">
+                                    <i class="fa-brands fa-github"></i> Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- /projects-grid -->
+
+                <div class="text-center mt-4 reveal-fade-up">
+                    <a href="https://github.com/aaditya0810" target="_blank" class="btn btn-outline">
+                        View All on GitHub <i class="fa-brands fa-github ml-1"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="section-header reveal-fade-up">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Let's Collaborate</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="contact-card glass-card reveal-fade-up">
+                    <div class="contact-info">
+                        <h2>Let's build something<br><span class="gradient-text">intelligent</span> together.</h2>
+                        <p>I'm open to new opportunities in data science, ML engineering, and AI product development.
+                            Whether it's a full-time role, contract work, or a collaboration — let's talk.</p>
+
+                        <div class="contact-methods">
+                            <div class="method">
+                                <div class="icon-box"><i class="fa-regular fa-envelope"></i></div>
+                                <div>
+                                    <h5>Email me</h5>
+                                    <a href="mailto:deta.aadi@gmail.com">deta.aadi@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="method">
+                                <div class="icon-box"><i class="fa-solid fa-phone"></i></div>
+                                <div>
+                                    <h5>Call me</h5>
+                                    <a href="tel:+447776663911">+44 7776 663911</a>
+                                </div>
+                            </div>
+                            <div class="method">
+                                <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <h5>Location</h5>
+                                    <span>United Kingdom</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links mt-3">
+                            <a href="https://github.com/aaditya0810" target="_blank" aria-label="GitHub" class="social-icon">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/aaditya-punekar" target="_blank" aria-label="LinkedIn" class="social-icon">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="5" placeholder="Your message here..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-full">
+                                Send Message <i class="fa-regular fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">Aaditya<span class="dot">.</span></div>
+            <p class="copyright">&copy; <span id="year"></span> Aaditya Punekar. All rights reserved.</p>
+            <p class="built-with">Crafted with HTML, CSS &amp; JavaScript &mdash; Deployed on GitHub Pages.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
