@@ -90,6 +90,31 @@ document.addEventListener('DOMContentLoaded', () => {
     revealEls.forEach(el => revealObserver.observe(el));
 
 
+    // ── 5.5 DYNAMIC EXPERIENCE COUNTER ───────────────────────
+    const expCounter = document.getElementById('exp-counter');
+    if (expCounter) {
+        const timelineDates = document.querySelectorAll('.timeline-date');
+        let totalMonths = 0;
+        
+        timelineDates.forEach(el => {
+            const text = el.textContent.split('–').map(s => s.trim());
+            if (text.length === 2 && text[0].length >= 3) {
+                const startDate = new Date(text[0]);
+                const endDate = text[1].toLowerCase() === 'present' ? new Date() : new Date(text[1]);
+                if (!isNaN(startDate) && !isNaN(endDate)) {
+                    const months = (endDate.getFullYear() - startDate.getFullYear()) * 12 + (endDate.getMonth() - startDate.getMonth());
+                    if (months > 0) totalMonths += months;
+                }
+            }
+        });
+        
+        const totalYears = Math.floor(totalMonths / 12);
+        if (totalYears > 0) {
+            expCounter.setAttribute('data-target', totalYears);
+        }
+    }
+
+
     // ── 6. COUNTER-UP ANIMATION ──────────────────────────────
     const statNumbers = document.querySelectorAll('.stat-number');
 
