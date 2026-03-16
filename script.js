@@ -97,6 +97,9 @@ document.addEventListener('DOMContentLoaded', () => {
         let totalMonths = 0;
         
         timelineDates.forEach(el => {
+            // Skip education entries
+            if (el.closest('.timeline-item').querySelector('.edu-dot')) return;
+            
             const text = el.textContent.split('–').map(s => s.trim());
             if (text.length === 2 && text[0].length >= 3) {
                 const startDate = new Date(text[0]);
