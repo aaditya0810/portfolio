@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // ── 5.5 DYNAMIC EXPERIENCE COUNTER ───────────────────────
     const expCounter = document.getElementById('exp-counter');
     if (expCounter) {
-        const timelineDates = document.querySelectorAll('.timeline-date');
+        const timelineDates = document.querySelectorAll('#experience .timeline-date');
         let totalMonths = 0;
         
         timelineDates.forEach(el => {
