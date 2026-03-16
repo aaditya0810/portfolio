@@ -111,6 +111,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const totalYears = Math.floor(totalMonths / 12);
         if (totalYears > 0) {
             expCounter.setAttribute('data-target', totalYears);
+            
+            // Also update the static text in the About Me section
+            const aboutExpCounter = document.getElementById('about-exp-counter');
+            if (aboutExpCounter) {
+                aboutExpCounter.textContent = totalYears;
+            }
         }
     }
 
